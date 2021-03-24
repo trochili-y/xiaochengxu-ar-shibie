@@ -1,0 +1,5 @@
+<view class="guideBox" catchtap="toMainPage">
+<view class="countDown">倒计时</view>
+<view class="gameGuide">游戏引导说明</view>
+<view class="intro">详细介绍</view>
+</view>

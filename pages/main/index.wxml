@@ -1,0 +1,15 @@
+<view class="mainContainer">
+  <view class="jingquMap">
+    <image src="../../images/back.jpg" class="map" mode="widthFix"></image>
+    <view class="footer">
+      <view class="messagebox">
+        <view class="messages">园区消息提醒你嘀嘀嘀</view>
+      </view>
+      <view class="pageBox">
+        <view class="arNav" catchtap="toArPage">寻宝导航</view>
+        <view class="My" catchtap="toMyPage" >我的</view>
+      </view>
+    </view>
+  </view>
+
+</view>

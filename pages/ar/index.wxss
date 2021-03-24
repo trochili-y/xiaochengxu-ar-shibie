@@ -1,0 +1,112 @@
+/* buton{
+  border: none;
+} */
+.footer{
+  width: 100%;
+  height: 20%;
+  /* background-color: palevioletred; */
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding-bottom: 30rpx;
+
+}
+.tip{
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  /* background-color: peru; */
+}
+.cam{
+  /* flex: 2; */
+  width: 150rpx;
+  height: 150rpx;
+  line-height: 150rpx;
+  text-align: center;
+  background-color: white;
+  border-radius: 50%;
+  /* z-index: -22; */
+}
+.commodity_screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.2;
+  overflow: hidden;
+  z-index: 1000;
+  color: #fff;
+}
+
+.commodity_attr_box {
+  width: 100%;
+  /* height: 65%; */
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2000;
+  background: #fff;
+  /* padding-top: 20rpx; */
+  /* padding-bottom: 20rpx; */
+  display: flex;
+  flex-direction: column;
+}
+.plantName{
+  /* flex: 1; */
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.plantImg{
+  /* flex: 3; */
+  height: 500rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.IMG{
+
+}
+.Imgbox{
+  width: 400rpx;
+  height: 400rpx;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.scoreBox{
+  /* flex: 2; */
+  height: 150rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.score{
+  /* flex: 1; */
+  height: 40rpx;
+  line-height: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shareImg{
+  /* padding-bottom: 15rpx; */
+  margin-top: 10rpx;
+  border: 1rpx solid #000;
+  margin-bottom: 20rpx;
+  border-radius: 20rpx;
+
+}
