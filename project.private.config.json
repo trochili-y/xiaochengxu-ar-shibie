@@ -1,0 +1,30 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "主界面",
+          "pathName": "pages/main/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "AR",
+          "pathName": "pages/ar/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
